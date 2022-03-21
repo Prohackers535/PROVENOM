@@ -27,6 +27,9 @@ $ git clone https://github.com/Prohackers535/PROVENOM
 $ cd PROVENOM
 ```
 ```
+$ chmod +x *
+```
+```
 $ python3 setup.py
 ```
 ```
