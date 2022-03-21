@@ -9,4 +9,26 @@ This tool is created by:
                      PRO HACKERS
                      Abdul Fasith
 
+# Installation 
 
+```
+$ cd $HOME
+```
+```
+$ apt update
+```
+```
+$ apt upgrade -y
+```
+```
+$ git clone https://github.com/Prohackers535/PROVENOM
+```
+```
+$ cd PROVENOM
+```
+```
+$ python3 setup.py
+```
+```
+$ python3 provenom.py
+```
