@@ -19,7 +19,7 @@ print(Fore.BLUE + "-*-*-*-*-*-*-*-*-*- PRO HACKERS -*-*-*-*-*-*-*-*-*-")
 print("")
 print(Fore.RED + " ☆ Github==> https://github.com/Prohackers535")
 
-subprocess.call(Fore.BLUE + "pkg install python3 figlet -y" , shell=True)
+subprocess.call(Fore.BLUE + "apt install python3 figlet -y" , shell=True)
 print("")
 
 subprocess.call("pip3 install colorama" , shell=True)
