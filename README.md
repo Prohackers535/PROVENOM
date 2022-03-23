@@ -30,6 +30,12 @@ $ apt update
 $ apt upgrade -y
 ```
 ```
+$ apt install python3 -y
+```
+```
+$ apt install figlet -y
+```
+```
 $ git clone https://github.com/Prohackers535/PROVENOM
 ```
 ```
