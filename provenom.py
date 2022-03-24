@@ -303,6 +303,8 @@ if yes == "y":
     print(Fore.RED + "#####################################")
     print("")
     
+    print(Fore.YELLOW + ">> use exploit/multi/handler")
+    print("")
     print(Fore.YELLOW + ">> set LPORT " + LPORT)
     print("")
     print(Fore.YELLOW + ">> set LHOST " + LHOST)
