@@ -38,7 +38,7 @@ print("")
 if meta == "y" or "Y":
     subprocess.call("apt install wget curl -y" , shell=True)
     subprocess.call("cd $HOME;wget https://raw.githubusercontent.com/efxtv/Metasploit-in-termux/main/metasploit-6-termux.sh" , shell=True)
-    subprocess.call("bash metasploit-6-termux.sh" , shell=True)
+    subprocess.call("cd;bash metasploit-6-termux.sh" , shell=True)
     subprocess.call("rm -rf /data/data/com.termux/files/usr/bin/msfvenom" , shell=True)
     subprocess.call("cd;cd metasploit-framework;ln -s $HOME/metasploit-framework/msfvenom /data/data/com.termux/files/usr/bin/" , shell=True)
     print("")
