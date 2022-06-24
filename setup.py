@@ -19,8 +19,8 @@ print(Fore.BLUE + "-*-*-*-*-*-*-*-*-*- PRO HACKERS -*-*-*-*-*-*-*-*-*-")
 print("")
 print(Fore.RED + " ☆ Github==> https://github.com/Prohackers535")
 print("")
-subprocess.call(Fore.BLUE + "apt install python3 -y" , shell=True)
-subprocess.call("apt install figlet -y" , shell=True)
+subprocess.call(Fore.BLUE + "apt-get install python3 -y" , shell=True)
+subprocess.call("apt-get install figlet -y" , shell=True)
 print("")
 
 subprocess.call("pip3 install colorama" , shell=True)
@@ -35,7 +35,7 @@ print("")
 meta = input(Fore.GREEN + "Do You Want To Install Metasploit Type (y) To Yes:--->> ")
 print("")
 
-if meta == "y":
+if meta == "y" or "Y":
     subprocess.call("apt install wget curl -y" , shell=True)
     subprocess.call("cd $HOME;wget https://raw.githubusercontent.com/efxtv/Metasploit-in-termux/main/metasploit-6-termux.sh" , shell=True)
     subprocess.call("bash metasploit-6-termux.sh" , shell=True)
@@ -46,7 +46,7 @@ if meta == "y":
 apkmod = input(Fore.BLUE + "Do You Want To Install Apkmod Type (y) To Yes:--->> ")
 print("")
 
-if apkmod == "y":
+if apkmod == "y" or "Y":
     subprocess.call("cd $HOME" , shell=True)
     subprocess.call("wget https://raw.githubusercontent.com/Hax4us/Apkmod/master/setup.sh" , shell=True)
     subprocess.call("bash setup.sh" , shell=True)
