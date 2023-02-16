@@ -51,14 +51,23 @@ $ python3 setup.py
 $ python3 provenom.py
 ```
 
+# I had no error but I also gave this to resolve errors:
+
+```
+$ python3 fixmetaerror.py
+```
+
 # For Help My Study and Create Another Tool
 
-- **BitCoin Address**
+- **BitCoin**
   1CKWuKKX9q5Ump55b8XJgWhcf4ws8KNiFG
 
+- **USDT Tron(Trc20)**
+  TNV6fCsWTJo9cQKzjUayDeqGC5WWqrhBdk
 
 
-# For Contact Me
 
-  https://t.me/abdulfasith373
+# Contact Me In Telegram
+
+  https://t.me/abdulfasith7
 
